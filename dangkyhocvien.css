@@ -1,0 +1,19 @@
+form {
+    width: 500px;
+    background-color: rgb(235, 243, 119);
+}
+table {
+    width: 100%;
+}
+.header {
+    background-color: rgb(139, 234, 234);
+    color: blue;
+    text-align: left;
+    height: 30px;
+}
+th {
+    color: blue;
+    height: 20px;
+    text-align: left;
+    padding-left: 10px;
+}

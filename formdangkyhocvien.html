@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đăng ký học viên</title>
+</head>
+<link rel="stylesheet" href="dangkyhocvien.css">
+<body>
+    <form method="get" action="/formdangkyhocvien.html">
+        <table>
+            <th colspan="3" class="header">ĐĂNG KÝ HỌC VIÊN</th>
+            <tr>
+                <th>Họ và tên</th>
+                <td colspan="2"><input type="textbox" name="name"></td>
+            </tr>
+            <tr>
+                <th>Ngày sinh</th>
+                <td colspan="2"><input type="textbox" name="date"></td>
+            </tr>
+            <tr>
+                <th>Giới tính</th>
+                <td><input type="radio" name="gender" value="nam">Nam <input type="radio" name="gender" value="nu">Nữ</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Địa chỉ</th>
+                <td colspan="2"><input type="textbox" name="address"></td>
+            </tr>
+            <tr>
+                <th>Lớp</th>
+                <td colspan="2">
+                    <select >
+                        <option value="none">Chọn lớp</option>
+                        <option value="lop1">lớp 1</option>
+                        <option value="lop2">lớp 2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td colspan="2"><input type="textbox" name="email"></td>
+            </tr>
+            <tr>
+                <th>Điện thoại</th>
+                <td colspan="2"><input type="number" name="number"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Gửi thông tin">  <input type="reset" value="Nhập lại"></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

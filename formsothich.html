@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Form nâng cao</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form method="GET" acntion="/formnangcao.html">
+    <table style="padding-bottom: 15px;">
+    <tr>
+        <th colspan="4" class="header">SỞ THÍCH CỦA BẠN</th>
+    </tr>
+    <tr>
+        <th style="color:blue; text-align: right;">Họ và tên</th>
+        <td colspan="2"><input type="textbox"  name="yourname" ></td>
+    </tr>
+    <tr>
+        <th style="color: blue ; text-align: right;">Email </th>
+        <td colspan="2"><input type="textbox"  name="email" ></td>
+    </tr>
+    <tr>
+        <th style="color:blue; text-align: right;">Sở thích </th>
+        <td><label><input type="checkbox"  name="hobby" value="sport">Thể Thao</td></label>
+        <td><label><input type="checkbox"  name="hobby" value="music">Âm nhạc</td></label>
+        <td><label><input type="checkbox"  name="hobby" value="book">Đọc sách</td></label>
+    </tr>
+    <tr>
+        <td><strong><p style="color:blue; text-align: right;"></p></td></strong>
+        <td><label><input type="checkbox"  name="hobby" value="web">Lướt web</td></label>
+        <td><label><input type="checkbox"  name="hobby" value="game">Chơi game</td></label>
+        <td><label><input type="checkbox"  name="hobby" value="movie">Điện ảnh</td></label>
+    </tr>
+    <tr>
+        <td></td>
+        <td><label><input type="checkbox"  name="hobby" value="travel">Du lịch</td></label>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="submit" value="Gửi thông tin"></td>
+        <td><input type="reset" value="Nhập lại"></td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
